@@ -1,0 +1,88 @@
+.wrapper{text-align:center;}
+.picarea{position:relative;}
+.picarea li{overflow-y:hidden;}
+.picarea img{width:100%;height:auto;max-height:600px;}
+.bott{position:absolute;left:0;bottom:0;width:100%;	height:110px;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);}
+.switch{position:absolute;left:0;bottom:120px;width:100%;text-align:center;}
+.switch ol{margin: 0 auto 30px auto;width:100px;}
+.switch li{float:left;background:#6b6b6b;width:10px;height:10px;border-radius:50%;display:inline-block;margin: 0 20px 0 0;cursor: pointer;}
+.switch li:hover{background:#009bff;}
+.switch li.active{background:#009bff;}
+.search-box{position:absolute;left:50%;margin-left:-275px;top:50%;margin-top:-23px;z-index:1;}
+.search-box input{float: left;width: 450px;height: 45px;font-size: 16px;line-height:45px;padding:0 4px;}
+.search-box button{float:left;width: 80px;height: 45px;background-color: #009bff;border: none;color: white;font-size:16px;cursor:pointer;}
+.iconarea ul{width:1000px;margin:0 auto;}
+.iconarea ul li{width:20%;float:left;}
+.liicon{margin:10px auto;height:90px;width:90px;background:url(../img/det_pinzhi_blue.png) no-repeat;}
+.liicon.icon1{background:url(../img/det_pinzhi_blue.png) no-repeat;}
+.liicon.icon2{background:url(../img/det_jiage_blue.png) no-repeat;}
+.liicon.icon3{background:url(../img/det_jiance_blue.png) no-repeat;}
+.liicon.icon4{background:url(../img/det_baoxiu_blue.png) no-repeat;}
+.liicon.icon5{background:url(../img/det_baoxian_blue.png) no-repeat;}
+.li-wrap p.bigger{font-size:18px;}
+.li-wrap p.smaller{font-size:14px;margin: 10px auto;}
+.desarea,.showarea{	width:100%;	background:#EAEAEA;	padding:1px 0;}
+.border-blue{border:2px solid #009bff;}
+.tainer{width:1000px;margin:0 auto;text-align:center;padding:1px;font-size:18px;}
+.hbig{margin:20px auto;font-size:24px;}
+.hlit{width:1000px;text-align:left;margin: 0 auto 20px;line-height:2em;}
+.hleft{margin-top: 20px;text-align:left;}
+.hleft em{font-size:20px;}
+.picer{width:100%;height:300px;position:relative;}
+.picercar{position:absolute;width:400px;height:220px;left:0;top:40px;background:url(../img/index_car.png) no-repeat;}
+.picertab{float:right;}
+.picertab table{width:650px;height:240px;font-size:14px;background:#fff;border-radius:5px;}
+.picertab table th,.picertab table th td{text-align:center;border-bottom:1px solid #ddd;}
+.pcarbig{margin:20px auto;font-size:32px;font-weight:bold;}
+.pcarlit{margin:10px auto;font-size:16px;position:relative;}
+.pcarlit a{position:absolute;right:45px;bottom:-5px;font-size:14px;}
+.pcarlit a:hover{text-decoration:underline;}
+.cartain{width:1000px;margin:0 auto;}
+.bigpic p,.smapic p{color:#fff;	text-align:left;}
+.bigpic{float:left;position:relative;border:3px solid #fff;margin:0 20px 0 40px;}
+.bigpic:hover,.smapic:hover{border:3px solid #009BFF;opacity:0.9;}
+.bigpic img,.bigpic a{width:600px;height:400px;display:block;}
+.bigpic p.des{width:200px;position:absolute;left:50px;bottom:20px;font-size:16px;}
+.bigpic p.pri{font-weight:bold;position:absolute;right:50px;bottom:25px;font-size:24px;}
+.bigpic p.newPri{position:absolute;right:50px;bottom:3px;color:#ddd;font-size:16px;}
+.smapic{float:left;position:relative;border:3px solid #fff;}
+.smapic img,.smapic a{display:block;width:284px;height:186px;}
+.smapic p.des{width:150px;position:absolute;left:10px;bottom:10px;font-size:12px;}
+.smapic p.pri{font-weight:bold;position:absolute;right:10px;bottom:20px;font-size:20px;}
+.smapic p.newPri{position:absolute;right:10px;bottom:3px;color:#ddd;font-size:14px;}
+.bigpic.f_right{margin:0 43px 0 20px;}
+.showcont{width:1000px;margin: 0 auto;}
+.showcont .tel{text-align:center;margin:50px auto;}
+.showcont .tel .but{display:inline-block;background-color:#009BFF;color:#fff;vertical-align:top;height:49px;width:100px;line-height:50px;font-size:18px;}
+.showcont .tel .lab{display:inline-block;background-color:#fff;border: 2px solid #009BFF;border-right:none;width:350px;height:45px;line-height:45px;font-size:28px;}
+.foundnum{text-align:center;}
+.foundnum p{float:left;font-size:24px;margin-top:15px;}
+.foundnum p em{font-size:40px;}
+.foundnum .num{float:left;margin-left:200px;}
+.foundnum .num li{float:left;margin-right:15px;width:60px;height:90px;background:url(../img/index-nums.png) no-repeat;}
+.foundnum .num li.num_0{background-position:0 0;}
+.foundnum .num li.num_1{background-position:-70px 0;}
+.foundnum .num li.num_2{background-position:-140px 0;}
+.foundnum .num li.num_3{background-position:-210px 0;}
+.foundnum .num li.num_4{background-position:-280px 0;}
+.foundnum .num li.num_5{background-position:-350px 0;}
+.foundnum .num li.num_6{background-position:-420px 0;}
+.foundnum .num li.num_7{background-position:-490px 0;}
+.foundnum .num li.num_8{background-position:-560px 0;}
+.foundnum .num li.num_9{background-position:-630px 0;}
+.founddes{position:relative;width:100%;height:350px;margin:50px auto;clear:both;}
+.founddes .cnmap{position:absolute;left:100px;top:50px;height:300px;width:400px;background: url(../img/index_cnmap.png) no-repeat;}
+.founddes .leaveword{position:absolute;left: 50%;margin-left: 50px;top:100px;width:300px;font-size:18px;}
+.person{position: absolute;width: 350px;height: 250px;left: 580px;top: 80px;overflow:hidden;}
+.person .destext{font-size:16px;overflow:hidden;text-indent:2em;text-overflow:ellipsis;text-align:left;height:120px;margin:10px 0;}
+.person .portrait{float:left;margin:5px 20px;}
+.person .portrait img{width:100px;height:100px;}
+.person .name{float:left;margin:30px 0 0 50px;}
+.person .name h3{float:left;font-size:20px;}
+.person .name p{float:left;font-size:16px;margin:5px 0 0 20px;}
+.person ul{position:absolute;width:10000px;}
+.person li{float:left;width:350px;}
+.founddes .leftbut{position:absolute;left:540px;top:200px;width:20px;height:30px;background:url(../img/smapic_left.png) no-repeat;}
+.founddes .leftbut:hover{background:url(../img/smapic_left_blue.png) no-repeat;}
+.founddes .rightbut{position:absolute;left:950px;top:200px;width:20px;height:30px;background:url(../img/smapic_right.png) no-repeat;}
+.founddes .rightbut:hover{background:url(../img/smapic_right_blue.png) no-repeat;}

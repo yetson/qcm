@@ -1,0 +1,32 @@
+.con-top{width:100%;height:300px;background-image:linear-gradient(#EFF6EF, #CECECE);position:relative;}
+.con-des{position:absolute;left:50%;margin-left:-420px;top:40px;}
+p.awesome{font-size:32px;}
+p.awesome em{color:#529CDD;}
+p.middle{font-size:20px;}
+p.cute a{color:#529CDD;}
+p.cute a:hover{text-decoration:underline;}
+p.cute{font-size:16px;}
+.con-pic{position:absolute;left:50%;margin-left:100px;bottom:0;width:310px;height:240px;background:url(../img/contactus_airplane.jpg) no-repeat}
+.con-map {position:relative;}
+.con-map img{width:100%;height:auto;max-height:300px;}
+.con-map .con-cover{position:absolute;left:0;top:0;width:100%;height:100%;background-color:rgba(1, 129, 213, 0.7);}
+.con-map .magnify{width:200px;height:200px;border-radius:50%;position:absolute;left:25%;top:50%;margin-top:-100px;}
+
+/*map是整条 baidu_api是静态地图 joinus是文字*/
+.map{width: 100%;height:360px; background:url(../img/join_back.jpg) no-repeat 50% 50%;text-align: center;margin-top:80px;}
+/*.baidu_api{display:inline;float:left;margin:30px 30px 30px 15%;width:300px;height:300px;background:url(http://api.map.baidu.com/staticimage?center=114.438241,30.512225&width=300&height=300&zoom=15&labels=114.438,30.513&labelStyles=我们,1,14,0xff0000,0xffffff,1&markers=114.438,30.513$markerStyles=m,A,0xFF0000);border-radius:15px;box-shadow: 3px 5px 7px #888}*/
+.baidu_api{display:inline;float:left;margin:30px 30px 30px 15%;width:300px;height:300px;background:url(http://api.map.baidu.com/staticimage?width=300&height=300&center=114.438241,30.512225&markers=114.438,30.513&zoom=14&markerStyles=m,我们,0xff0000) no-repeat;border-radius:15px;box-shadow: 3px 5px 7px #888}
+.joinus{display: inline;float: right;margin:10%;color:#FFF;font-size: 20px;text-shadow:#222 1px 2px 3px;letter-spacing: 2px;font-family: Kaiti;}
+.footer_sep{width:200px;margin:40px auto 10px;text-align:center;font-size:14px;line-height:30px;color:#072}
+.footer_title{margin: 20px 0 0 0;text-align: center;font-family:Kaiti;font-size: 22px;color: #072;}
+/*form_group是大的圆角矩形 top上面部分 bottom是按钮*/
+.form_group{margin:20px 0;;position:relative;left:25%;width: 50%;background: #CCC;border-radius: 50px;}
+.form_top{float:left;width:94%;border-radius: 50px 50px 0 0;background: #EEE;text-align:center;padding: 3%;font-size: 20px;color:#00bc6c;line-height: 60px;}
+.form_bottom{float:left;width:100%;border-radius: 0 0 50px 50px;background: #B5B5B5;text-align:center;padding:20 0 20 0;}
+.form_bottom:hover{cursor:pointer;background:#1abc9c;}
+/*两种输入区域*/
+.login-field {border: 2px solid #FFF;border-radius: 6px;font-size: 17px;text-indent: 3px;padding: 8px 12px;height: 22px;color:#54697e;}
+.login-field:focus {border-color: #1abc9c;}
+.text-field {margin-top:15px;border: 2px solid #FFF;border-radius: 6px;font-size: 17px;text-indent: 3px;color:#54697e;width: 286px;}
+.text-field:focus {border-color: #1abc9c;}
+.form_bottom .but{margin:0 auto;width:50px;height:50px;background:url(../img/contact_airplane.png) no-repeat;}

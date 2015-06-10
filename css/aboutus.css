@@ -1,0 +1,97 @@
+.clear {clear: both;}
+.wrapper{font-size:16px;}
+/*标题栏*/
+.us{
+background: -moz-linear-gradient(top, #eee, #aaa); 
+background: -webkit-linear-gradient(#eee,#aaa);
+background: -ms-linear-gradient(top, #eee, #aaa);
+background: linear-gradient(top, #eee, #aaa);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa', GradientType=0);/* IE*/
+width: 90%;height: 400px;padding: 5%;}
+.usp{background: url(../img/about-usp.png);height: 341px;width: 900px;margin: 0 auto;}
+.mid{width: 900px;margin: 0 auto;padding:30px 0 30px 0;line-height: 30px;text-indent: 32px;}
+.mid h2{font-size: 32px;text-indent: 0px;margin: 20px 0 20px 0;}
+/*ABCD 4个圈*/
+.blue{width: 100%;background-color: #009ad2;text-align: center;}
+.v{text-indent: 0;text-align: center;clear:both;}
+.circle{display:inline-block;float:left;width: 160px;height:160px;background-color: #fff;border-radius: 80px;font-size: 70px;line-height:90px;color: #009ad2;margin: 0 30px 0 30px;text-align: center;}
+.c-text{display: inline-block;float:left;width: 160px;color: #FFF;margin: 30px 30px 0 30px;font-size: 15px;}
+.circle p{margin-top:35px;}
+/*头像*/
+.circle2{display: inline-block;float:left;width: 160px;height:95px;background:url("../img/about-person.jpg");border-radius: 80px;font-size: 70px;color: #009ad2;margin: 0 60px 0 60px;text-align: center;padding-top: 65px;}
+.c-text2{display: inline-block;float:left;width: 160px;color: #333;margin: 20px 60px 0 60px;font-size: 15px;line-height: 20px;}
+/*加入我们*/
+.join{width:100%;height:120px;background: url(../img/about-airplane.jpg) 50% 20%;text-align: center;padding-top:200px;}
+.ju{width:150px;height: 50px;background-color: #B30000;border:none;color: #FFF;font-size: 22px;cursor: pointer;}
+.ju:hover{background-color: #FFF;color:#000;}
+.ju:active{background-color: #79F;}
+
+/*各种链接*/
+.link{width: 100%;height: 120px;background-color: #ccc;padding-top: 30px;position: relative;}
+.icon{position: absolute;top:50px;right: 460px;letter-spacing: 20px;}
+.back{position:fixed;bottom:11%;right: 7%;opacity: 0.1;color: #666;line-height: 16px;}
+.back:hover{opacity: 0.7;}
+.bac{position: absolute;top:-10px;left: 80px;}
+
+/*交互部分*/
+.jh{width: 100%;height: 600px;background-color: #EEE;}
+.jh_mid{width: 960px;margin:0 auto;}
+#test{color: #969696;}
+.mid2{
+	position:relative;
+	width: 600px;
+	height: 600px;
+}
+.pp{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top:100px;
+	left: 100px;
+	border-radius:200px; 
+	border:2px dashed #AAA;
+}
+#pic{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	top:200px;
+	left:200px;
+	background-position: 50% 50%;
+	background: url(../img/about-th1.jpg);
+	z-index: 10;
+}
+#t1,#t2,#t3{position:absolute;cursor: pointer;}
+
+#tp1,#tp2,#tp3{position:absolute;
+	top:15px;left:75px;
+	height: 80px;
+	background: #009ad2;
+	z-index: 1;
+	color: #fff;
+	font-family: Microsoft Yahei;
+	font-size:12px;
+	overflow: hidden;
+	border-radius: 60px;}
+#ts1,#ts2,#ts3{
+	position:absolute;
+	width:146px;
+	height: 126px;
+	border-radius: 75px;
+	border:2px dashed #009ad2;
+	background-color: #fff;
+	text-align: center;
+	font-family:Youyuan,Microsoft Yahei;
+	font-size: 40px;
+	padding-top: 20px;
+	line-height: 50px;
+	color: #009ad2;
+	z-index: 1000;
+}
+#ts1:hover,#ts2:hover,#ts3:hover{
+	background-color: #009ad2;
+	color:#fff;
+	border-color: #009ad2;
+	box-shadow: inset 0 0 30px #fff;
+}

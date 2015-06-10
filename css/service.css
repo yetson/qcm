@@ -1,0 +1,162 @@
+@charset "utf-8"
+.clear{clear: both;}
+.wrapper{text-align:center;}
+.body{font-family: arial,STHeiti,Microsoft YaHei;font-size: 16px;}
+/*标题栏*/
+.faq{
+	width: 90%;height: 338px;padding: 50px 5%;
+	background: -moz-linear-gradient(top, #eee, #aaa); 
+	background: -webkit-linear-gradient(#eee,#aaa);
+	background: -ms-linear-gradient(top, #eee, #aaa);
+	background: linear-gradient(top, #eee, #aaa);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa', GradientType=0);/* IE*/
+	}
+.faqp{background: url(../img/service/main.png);width: 960px;height:338px;margin: 50px auto;}
+/*导航栏*/
+nav {margin:0 auto;width: 960px;height: 70px;z-index: 20;}
+nav div {display: inline-block;position:relative;float:left;width:239px;height:49px;margin-left: -1px;padding-top:20px;text-align: center;font-size: 20px;color: #333;background-color: #fff;border: 1px solid #2ea7e0;	border-top:none;}
+nav div:after {content: url(../img/service/tick.png);position: absolute;left: 100px;top: 61px;clip: rect(auto 40px auto auto);z-index: 21;}
+nav div:hover {background-color: #2ea7e0;color: #fff;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;}
+nav div:hover:after{left:60px;clip: rect(auto auto auto 40px);}
+nav a.here div{border-top: 5px solid #2ea7e0;}
+/**/
+.blue{width: 100%;background-color: #2ea7e0;padding:150px 0 50px 0;}
+.blue h1{font-size: 36px;color: #fff;line-height: 70px;text-align: center;letter-spacing: 2px;}
+.blue h2{font-size: 20px;color: #fff;line-height: 50px;opacity: 0.6;text-align: center;letter-spacing: 2px;}
+.content{width: 960px;margin:0 auto;position: relative;text-align: center;}
+/*卖家*/
+#sp1{margin:30px auto;width: 200px;height: 120px;background: url(../img/service/k2.gif);font-size: 30px;color: #3a3a3a;padding-top: 80px;text-align: center;}
+#sp2,#sp3,#sp4{position:absolute;width: 150px;height: 90px;background: url(../img/service/k2-2.gif) no-repeat;font-size: 16px;color: #3a3a3a;padding-top: 60px;text-align: center;}
+#sp2{top:250px;left:700px;}
+#sp3{top:500px;left:150px;}
+#sp4{top:700px;left:400px;}
+#l1{background: url(../img/service/l1.png);width: 130px;height: 100px;position: absolute;top: 630px;left: 280px;}
+#l2{background: url(../img/service/l1.png);width: 130px;height: 100px;position: absolute;top: 170px;left: 570px;}
+#l3{background: url(../img/service/l2.png);width: 373px;height: 216px;position: absolute;top: 330px;left: 310px;}
+#t1{position:absolute;width: 450px;top:300px;left:160px;}
+#t1:before{content:url(../img/service/f1.png);position:absolute;top:-70px;left:140px;clip: rect(auto 150px 100px auto);}
+#t2{position:absolute;width: 400px;height: 300px;top:550px;left:400px;}
+#t2:before{content:url(../img/service/f1.png);position:absolute;top:-190px;left:120px;clip: rect(100px 250px auto auto);}
+#t3{position:absolute;width: 400px;height: 300px;top:950px;left:0px;}
+#t3:before{content:url(../img/service/f1.png);position:absolute;top:-50px;left:190px;clip: rect(auto auto auto 250px);}
+#t4{position:absolute;width: 360px;height: 300px;top:950px;left:550px;}
+/*车-背景*/
+#bk img{z-index: 5;}
+#car div.blue{padding-bottom: 300px;overflow: visible;position: relative;}
+#che{position: absolute;left: 50%;margin-left: -400px;top: 280px;}
+#zhu{position: absolute;left: 50%;margin-left: -10px;width: 20px;height: 1400px;top:-100px;background-color: #bbb;border-radius: 10px;z-index: 2;}
+#quan1{position: absolute;left: 50%;margin-left: -30px;top:-130px;width: 60px;height:60px;}
+#grey{width: 100%;height:700px;background-color: #eee;text-align: center;padding-top: 30px;position: relative;}
+#grey #f3{position: absolute;top: 500px;left: 600px;clip: rect(auto 110px 110px auto);}
+#grey div{position: absolute;top: 650px;width: 620px;left: 50%;margin-left: -310px;}
+#tex{position: absolute;top:1400px;left:0;width: 100%;text-align: center;}
+h3{font-size: 36px;line-height: 70px;text-align: center;}
+h4{font-size: 22px;line-height: 50px;text-align: center;color: #222;}
+h4 span{color: #f00;font-size: 26px;padding: 10px;font-weight: lighter;}
+
+/*车-管道*/
+.jin1{position:absolute;width: 250px;height: 50px;background: url(../img/service/tube.png);background-position: 0 -50px;}
+.jin1:before{content: url(../img/service/yuan.png);width: 30px;height: 30px;position: absolute;left: -20px;top: 30px;z-index: 2;}
+.jin2{position:absolute;width: 250px;height: 50px;background: url(../img/service/tube.png);background-position: 0 -150px;}
+.jin2:after{content: url(../img/service/yuan.png);width: 30px;height: 30px;position: absolute;left: 240px;top: 30px;z-index: 2;}
+#jin1{top:300px;left: 230px;}
+#jin2{top:400px;left: 480px;}
+#jin3{top:500px;left: 230px;}
+#jin4{top:600px;left: 480px;}
+#jin5{top:700px;left: 230px;}
+#jin6{top:800px;left: 480px;}
+#jin7{top:900px;left: 230px;}
+#jin8{top:1000px;left: 480px;}
+#jin9{top:1100px;left: 230px;}
+/*车-动图*/
+.tu{width:200px;height: 100px;background: url(../img/service/f2.png);position: absolute;}
+#tu1{left:250px;top:220px;}
+#tu1:after{content: "车龄小于8年";position:absolute;left:10px;top: 140px;}
+#tu2{left:550px;top:320px;background-position: -200px 0;width: 150px;}
+#tu2:after{content: "里程小于10万公里";position:absolute;left:10px;top: 140px;}
+#tu3{left:250px;top:420px;background-position: -350px 0;}
+#tu3:after{content: "过户不超过2次";position:absolute;left:10px;top: 140px;}
+#tu4{left:530px;top:520px;background-position: -550px 0;}
+#tu4:after{content: "外观较新，无明显缺陷";position:absolute;left:10px;top: 140px;}
+#tu5{left:250px;top:620px;background-position: -750px 0;width: 150px;}
+#tu5:after{content: "轮胎无变形，轮胎面纹理75%以上";position:absolute;left:10px;top: 140px;}
+#tu6{left:530px;top:720px;background-position: -900px 0;}
+#tu6:after{content: "车身内饰无明显磨损缺陷";position:absolute;left:10px;top: 140px;}
+#tu7{left:250px;top:820px;background-position: -1100px 0;width: 140px;}
+#tu7:after{content: "漆面只有细微修复";position:absolute;left:10px;top: 140px;}
+#tu8{left:530px;top:920px;background-position: -1230px 0;width: 160px;}
+#tu8:after{content: "发动机舱干净无泄露";position:absolute;left:10px;top: 140px;}
+#tu9{left:250px;top:1020px;background-position: -1380px 0;width: 170px;}
+#tu9:after{content: "无不良历史和服务记录";position:absolute;left:10px;top: 140px;}
+/*车-流动*/
+#zhu1{position: absolute;left: 50%;margin-left: -10px;width: 20px;height: 0px;top:-100px;background-color: #2ea7e0;border-radius: 10px;z-index:3;}
+.ji1{position:absolute;width: 0px;height: 50px;overflow: hidden;}
+.ji1 img{position: absolute;right: 0;}
+.ji2{position:absolute;width: 0px;height: 50px;background: url(../img/service/tube.png);background-position: 0 -100px;}
+
+#ji1{top:300px;right: 480px;}
+#ji2{top:400px;left: 480px;}
+#ji3{top:500px;right: 480px;}
+#ji4{top:600px;left: 480px;}
+#ji5{top:700px;right: 480px;}
+#ji6{top:800px;left: 480px;}
+#ji7{top:900px;right: 480px;}
+#ji8{top:1000px;left: 480px;}
+#ji9{top:1100px;right: 480px;}
+/*cbd检测*/
+#check .content img{width:686px;height: 795px;position:relative;margin:30px 0 30px 0;}
+#check span{color: #2ea7e0;font-size: 20px;font-weight: bold;padding: 0 3px 0 5px;}
+#check1{position: absolute;left: 160px;top:200px;width: 150px;height: 400px;font-size: 12px;}
+#check2{position: absolute;left: 400px;top:100px;width: 150px;height: 400px;font-size: 12px;}
+#check3{position: absolute;left: 640px;top:200px;width: 150px;height: 400px;font-size: 12px;}
+#check4{position: absolute;left: 400px;top:670px;width: 150px;height: 400px;font-size: 12px;}
+.grey{width: 100%;background-color: #eee;text-align: center;padding-top: 30px;position: relative;}
+#tube1{position:relative;left: 50%;width: 6px;height: 100px;background-color: #2ea7e0;border-radius: 3px;z-index:3;margin: 20px 0 20px -3px;}
+
+.imgcon,.imgtcon{width:900px;margin:0 auto;}
+#img1,#img2,#img3{float:left;font-size:22px;color:#fff;text-align:center;padding-top:60px;display:inline-block;width: 240px;height: 180px;background: url(../img/service/cir0.gif);background-position: 0 0;margin: 20px 30px 0 30px}
+
+#img2{background-position: -240px 0}
+#img3{background-position: -480px 0}
+div#tube1,div#img1,div#img2,div#img3{	
+	transition: transform 1s;
+	-moz-transition: transform 1s;	/* Firefox 4 */
+	-webkit-transition: transform 1s;	/* Safari 和 Chrome */
+	-o-transition: transform 1s;	/* Firefox */
+}
+#tube1:hover,#img1:hover,#img2:hover,#img3:hover{
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);		/* IE 9 */
+	-webkit-transform: rotate(360deg);	/* Safari and Chrome */
+	-o-transform: rotate(360deg);		/* Opera */
+	-moz-transform: rotate(360deg);		/* Firefox */
+}
+
+.imgt{display: inline-block;float:left;width: 240px;height: 100px;margin: 40px 30px 0 30px}
+
+#check button{margin:30px 0 30px 0;width:170px;height: 60px;background-color: #2ea7e0;border-radius: 5px;border: none;font-size: 26px;color: #fff;}
+#check button:active,
+#check button:hover{background-color: #fff;color:#2ea7e0;border:2px solid #2ea7e0;cursor: pointer;}
+/*价格优势*/
+.tube2{position:relative;width: 6px;height: 150px;background-color: #f0f0f0;border-radius: 3px;z-index:3;margin: 20px auto;}
+.tube2{
+	transition: background-color 1s;
+	-moz-transition: background-color 1s;	/* Firefox 4 */
+	-webkit-transition: background-color 1s;	/* Safari 和 Chrome */
+	-o-transition: background-color 1s;	/* Firefox */
+}
+.tube2:hover{background:#2ea7e0;}
+#c7{width: 200px;height: 140px;border-radius: 50%;background-color: #2ea7e0;padding-top: 60px;font-size: 50px;color:#fff;text-align: center;margin: 30px auto}
+#x1{width: 200px;height: 100px;position: relative;margin: 0 auto;text-align: center;}
+#x1:before{content: url(../img/service/f3.gif);position: absolute;clip: rect(auto 240px 130px 115px);left: -240px;top: -40px;}
+#price span{color: #2ea7e0;font-size: 130px;padding: 0 50px 50px;font-weight: normal;}
+#cir2{position: relative;}
+#cir3{position: absolute;top: 0;left: 30px;width:900px;height: 0px;overflow: hidden;}
+#cut{width:500px;height:150px;background:url(../img/service/f3.gif);background-position: 0 -150px;position: relative;margin: 0 auto;}
+#b2{width: 150px;height: 110px;border-radius: 50%;background-color: #2ea7e0;padding-top: 40px;font-size: 50px;color:#fff;text-align: center;margin: 30px auto;font-weight: bold;}
+h5{font-size: 30px;color: #aaa;margin: 100px 0 50px 0}
+#ha{width:450px;height:100px;background: url(../img/service/f3.gif);background-position: 0 100px;margin: 0 auto;}
+table#ta{ border-collapse:separate;border-spacing:50px;color: #555;font-size: 20px;margin: 0 auto;text-align: center;background-color: #f0f0f0;}

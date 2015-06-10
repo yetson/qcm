@@ -1,0 +1,51 @@
+.wrapper{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	&.index{
+		background-image: url(../../img/mobile/index-background.png);	
+	}
+}
+.index{
+	.log{
+		width: 100px;
+		height: 100px;
+		margin: 20% auto 0;
+		background-image: url(../../img/mobile/index-car.png);
+		background-size: cover;	
+	}
+	p{
+		color: #fff;
+		text-align: center;
+		font-size: 1.5em;
+		&.des-car{
+			font-size: 2.5em;
+			margin-top: 1em;		
+		}	
+	}
+	ul{
+		width: 90%;
+		margin: 1em auto;
+		li{
+			margin-top: 0.5em;
+			a{
+				height: 50px;
+				width: 100%;
+				display: block;
+				background-size: cover;
+			}
+			.find{
+				background-image: url(../../img/mobile/find.png);
+			}
+			.sale{
+				background-image: url(../../img/mobile/sale.png);	
+			}
+			.service{
+				background-image: url(../../img/mobile/service.png);
+			}		
+		}
+	}
+}

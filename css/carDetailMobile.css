@@ -1,0 +1,60 @@
+.wrapper{text-align:center;}
+.clearfix:after{visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0;} 
+.clearfix{zoom:1;}
+.top-tit,.footer{position:fixed;z-index:1;left:0;top:0;width:100%;height:2em;text-align:center;background-color:#009bff;color:#fff;font-size:1.5em;}
+.footer{top:inherit;bottom:0;line-height:2em;text-align:center;}
+.top-tit{line-height:1.5em;height:3em;}
+.top-cars{margin-top:2em;width:100%;}
+.top-cars img{width:100%;}
+.pos-car{position:relative;}
+.ol-nav{position:absolute;left:50%;}
+.ol-nav li{width:10px;height:10px;border-radius:50%;background:transparent;border:1px solid #fff;display:inline-block;}
+.ol-nav li:hover,.ol-nav li.active{background-color:#f50;}
+.base-info{clear:both;}
+.price{width:300px;height:70px;margin:20px auto; border: 2px solid #1E91E2; border-radius: 35px;}
+.price div.ico{float:left;width:50px;height:50px;margin:10px;background:url(../img/icon-jiage.png) no-repeat;}
+.price .old-price{font-size:2em;}
+.price .old-price em{color:#2eabff;}
+.mil-yea{width:300px;margin: 10px auto;}
+.mileage,.year{float:left;width:130px;height:40px;border:2px solid #1E91E2;border-radius:35px;line-height:40px;font-size:1.2em;}
+.mileage:before{content:url(../img/icon-licheng-small.png) no-repeat;float:left;width:30px;height:30px;margin:5px;}
+.year:before{content:url(../img/icon-nianfen-small.png) no-repeat;float:left;width:30px;height:30px;margin:5px;}
+.year{margin-left: 30px;}
+.describe{background-color:#e5e5e5;width:100%;}
+.fea-col{margin:10px 0;width:100%;}
+.fea-col h2{font-size:1.6em;}
+.car-situation,.car-history,.car-certificate{width:90%;margin:10px auto;background-color:#fff;text-align:left;}
+.area-tit{text-indent:1em;height:2em;line-height:2em;font-size:2em;border-radius:5px;border-bottom:2px solid #e5e5e5;} 
+.car-situation .area-des{text-indent: 1em;font-size:1.2em;padding:10px;}
+.car-history hr{border:1px solid #e5e5e5;}
+.car-history h3{font-size:1.5em;text-align:center;margin:10px 0;}
+.car-history table{width:100%;cellpadding: 5px;}
+.car-history table td{text-align:center;font-size:1em;color:#83B6D5;padding:5px;}
+.car-history table th{text-align:center;font-size:1.2em;width:33%;padding:5px;}
+.area-cont{background-color:#fff;padding:10px;}
+.cer-row{clear:both;margin:10px 0;width:100%;}
+.cer-row a{float:left;width:20%;margin-top:20px;}
+.cer-row a i{display:block;margin:0 auto;width:20px;height:20px;}
+.cer-row a i.right{background:url(../img/det_right.png) no-repeat;}
+.cer-row a i.error{background:url(../img/det_error.png) no-repeat;}
+.cer-row a p{clear:both;text-align:center;margin-top:5px;}
+.footer-tel{float:left;margin-left:10px;}
+.footer-site{float:right;margin-right:10px;}
+.footer-tel i{float:left;margin:3px;width:30px;height:30px; background:url(../img/mobile/call.png)no-repeat;}
+.footer-site i{float:left;margin:3px;width:30px;height:30px; background:url(../img/mobile/globe.png)no-repeat;}
+ /*swipe.jsµÄstyle start*/
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > figure {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+/*swipe.jsµÄstyle end*/

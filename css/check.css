@@ -1,0 +1,78 @@
+.clear {clear: both;}
+#check{text-align:left;}
+/*标题栏*/
+.us{background-color:#EEE;width: 90%;height: 200px;padding: 5%;text-align: center;}
+.us .sl{font-size: 20px;color: #999;margin: -50 0 30px 0;letter-spacing: 30px;}
+.us p{font-size: 22px;letter-spacing: 2px;line-height: 40px;}
+.us b{font-size: 36px;line-height: 80px;}
+#num{color: #009cff;}
+#num:before{content: " "}
+#num:after{content: " "}
+/*通用选择器，图片文本列表*/
+.mid{width: 960px;margin:0 auto;padding-bottom:30px;vertical-align:middle;position: relative;}
+.img{display: inline;float:right;margin-right: 30px;}
+.imgt{margin:30px auto;text-align: center;}
+.text{margin-top: 20px;font-weight: normal;font-size: 32px;}
+.mid li{font-size: 16px;font-weight: lighter;list-style: none;margin-top:10px;}
+.mid li span{width:30px;height:30px;float:left;background:url(../img/check_tick.png) no-repeat;}
+.text h2{-webkit-column-span:all; column-span:all;margin-bottom: 30px;max-height:48px;}
+/*按深浅分*/
+.d{width: 100%;background-color: #444;}
+.l{width: 100%;background-color: #fff;}
+.d .tri{position:relative;margin:0 auto;width: 0;height: 0;border-left: 30px solid transparent;border-right:30px solid transparent;border-top: 20px solid #eee; }
+.l .tri{position:relative;margin:0 auto;width: 0;height: 0;border-left: 30px solid transparent;border-right:30px solid transparent;border-top: 20px solid #444; }
+.d .text{color: #eee;}
+.d li{color: #bbb;}
+.l .text{color: #444;}
+.l li{color: #666;}
+.col3{-moz-column-count:3;-webkit-column-count:3;column-count:3;}
+.col2{-moz-column-count:2;-webkit-column-count:2;column-count:2;}
+.col3x{-moz-column-count:3;-webkit-column-count:3;column-count:3;-moz-column-gap:0;-webkit-column-gap:0;column-gap:0;}
+.col2x{-moz-column-count:2;-webkit-column-count:2;column-count:2;-moz-column-gap:0;-webkit-column-gap:0;column-gap:0;}
+
+.t1{position: absolute;top: 80px;left: 340px;}
+.t2{position: absolute;top: 280px;left: 760px;}
+.t3{position: absolute;top: 100px;left: -40px;}
+.t4{position: absolute;top: 320px;left: -40px;}
+.t5{position: absolute;top: 20px;left: 200px;}
+.t6{position: absolute;top: 20px;left: 390px;}
+.t7{position: absolute;top: 100px;left: 350px;}
+.t8{position: absolute;top: 320px;left: 340px;}
+.t9{position: absolute;top: 20px;left: 590px;}
+.t10{position: absolute;top: 20px;left: 720px;}
+.t11{position: absolute;top: -10px;left: 780px;}
+.t12{position: absolute;top: 350px;left: 800px;}
+.t13{position: absolute;top: 200px;left: 240px;}
+.t14{position: absolute;top: 50px;left: 290px;}
+.t15{position: absolute;top: -20px;left: 790px;}
+.t16{position: absolute;top: 110px;left: 880px;}
+.t17{position: absolute;top: 330px;left: 600px;}
+.t18{position: absolute;top: 310px;left: 400px;}
+.t19{position: absolute;top: 20px;left: 330px;}
+.t19 p{font-size: 10px;text-indent: 40px;line-height: 22px;color: #999}
+.t20{position: absolute;top: 80px;right: -20px;}
+.t21{position: absolute;top: 280px;right:-20px;text-align: right;}
+.t22{position: absolute;top: 280px;left: 320px;}
+.t23{position: absolute;top: 70px;left: 280px;}
+.t24{position: absolute;top: 130px;left: 320px;}
+.t25{position: absolute;top: 190px;left: 320px;}
+.t26{position: absolute;top: 280px;left: 380px;}
+.t27{position: absolute;top: 340px;left: 430px;}
+.t28{position: absolute;top: 50px;left: 820px;}
+.t29{position: absolute;top: 140px;right:-20px;}
+.t30{position: absolute;top: 280px;right:-10px;}
+.t31{position: absolute;top: 20px;left:400px;}
+.t32{position: absolute;top: 180px;left:300px;}
+.t33{position: absolute;top: 0px;left:780px;}
+.t34{position: absolute;top: 100px;right:-50px;}
+.t35{position: absolute;top: 280px;right:-50px;}
+.t36{position: absolute;top: 50px;left:320px;}
+.t37{position: absolute;top: 50px;left:720px;}
+.t38{position: absolute;top: 300px;left:750px;}
+.t39{position: absolute;top: 300px;left:420px;}
+.t40{position: absolute;top: 350px;left:350px;}
+.t41{position: absolute;top: 400px;left:450px;}
+.t42{position: absolute;top: 340px;left:650px;}
+.t43{position: absolute;top: 350px;left:840px;}
+.t44{position: absolute;top: 30px;right:-40px;}
+.t45{position: absolute;top: 300px;right:-40px;}

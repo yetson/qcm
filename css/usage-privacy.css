@@ -1,0 +1,14 @@
+.clear {clear: both;}
+.container{width: 100%;background-color: #333;}
+.guide{width:180px;background-color: #CCC;position: fixed;top: 100px;color: #555;font-family: Microsoft Yahei;padding: 20px;border-radius: 0 20px 20px 0;}
+#gtitle{font-size: 18px;line-height: 200%;padding: 0 1em 0 1em;}
+#gtitle2 li{line-height:30px; height:30px; width: 160px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#gtitle:hover{display:inline-block;background-color:#4DA6BD;color: #FFF;border-radius: 20px;}
+#gtitle2 li:hover{display:inline-block;background-color:#4DA6BD;color: #FFF;border-radius: 8px;}
+#gtitle2 li.current{display:inline-block;background-color:#4DA6BD;color: #FFF;border-radius: 8px;}
+.rule{padding: 40px 0 0 250px;}
+.text{background-color: #EEE;border-radius: 20px 0 0 20px;padding: 20px 80px;}
+.text p{text-indent:2em;}
+.text h1{text-align: center;font-size: 26px;color:#333;font-weight: bold;font-family: Microsoft Yahei;margin: 20px 0;}
+.text h2{font-size: 18px;color:#777;font-family: Microsoft Yahei;margin: 20px 0 20px 0;}
+.text h2 span{display:inline-block;text-align:center;width:34px;height:28px;background-color:#4DA6BD;border-radius:5px;padding:3px 0 3px 0;margin-right:1em;color: #FFF;}

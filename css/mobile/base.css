@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================去浏览器常规默认样式=======================*/
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, img, textarea, div,input,select,option, a{ border:0 none; margin:0; padding:0; color:#333; font-family:"微软雅黑";font-size:12px; outline:none; font-weight:normal;}
+talbe tr td{ vertical-align:middle;}
+select { font-family:simsun; -webkit-appearance:none; background:none;}
+ul, ol, li { list-style-type:none }
+i{ font-style:normal;}
+b{ font-weight:normal;}
+img{ border:0px none; padding:0px; margin:0px;}
+input[type="submit"]{ border:0px none; -webkit-appearance:none;}
+input[type="text"]{ border:#f3f3f3 solid 1px; -webkit-appearance:none;}
+a { text-decoration:none; outline:none;/*FF标准去虚线框*/ }
+a { star:expression(this.onFocus=this.blur()); /* for Ie*去虚线框*/
+}
+a:focus{ outline:none; -webkit-appearance:none;}
+/*======================浮动的外层==================*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .clearfix { zoom:1 }
+.clearfix { display:block; }
+/* end clearfix */
+
+/*========解决border部分时有时无问题---使用时注意未知问题===========*/
+.borderfix { zoom:1 }
+/*=====================布局=========================*/
+.margin_center { margin-left:auto; margin-right:auto }
+.float_left { float:left }
+.float_right { float:right }
+.block { display:block }
+.clear { clear:both; height:0px; overflow:hidden; font-size: 0px; line-height: 0px; }
+.po_re { position:relative; }
+.po_ab { position:absolute; }
+/*====================自定义================================*/
+.body_bg{ background-color:#f8f8f8;}
+header{ width:96%; height:40px; padding:0 2%; background-color:#18b4ed; position:relative;}
+header .h_left{ float:left; width:20%; height:20px; padding-top:10px; padding-bottom:10px; cursor:pointer;}
+header .h_left img{ display:inline-block; height:20px;}
+header .h_center{ float:left; width:60%; height:30px; padding-top:5px; padding-bottom:5px;}
+header .h_center p{ width:100%; height:30px; line-height:30px; text-align:center; font-size:1.125rem; color:#fff; font-weight:700;} 
+@media screen and (min-width:320px) and (max-width: 640px){
+header .h_center p{ width:100%; height:30px; line-height:30px; text-align:center; font-size:1.125rem; color:#fff; font-weight:normal;} 
+}
+header .h_right{ float:right; width:20%;}
+header .h_right a{ display:block; width:100%; height:20px; line-height:20px; padding:10px 0; text-align:right; border-bottom:#ececec solid 1px;}
+header .h_right a img{ height:20px;}
+header .h_right a.a_sxuan{ display:block; width:98%; padding:3px 0; color:#fff; margin-top:7px; border:#fff solid 1px; font-size:1rem; text-align:center;}
+header .h_share{ width:100%; position:absolute; left:0px; top:40px; z-index:2; background-color:#fff;}
+header .h_share .bdsharebuttonbox{ width:100%;}
+header .h_share .bdsharebuttonbox ul{ width:100%;}
+header .h_share .bdsharebuttonbox li{ float:left; display:block; text-align:center; height:35px; line-height:35px; width:24.4%; border-right:#ececec solid 1px; border-bottom:#ececec solid 1px; background-position:center center;}
+header .h_share .bdsharebuttonbox li a{ display:block; width:24px; height:24px; margin:0px auto; margin-top:5px; float:none;}

@@ -1,0 +1,48 @@
+.clear {clear: both;}
+.wrapper{font-family: arial,Microsoft Yahei;font-size: 16px;}
+.mid{width: 960px;margin: 0 auto ;position: relative;margin-bottom:20px;}
+/*标题栏*/
+.us{
+background: -moz-linear-gradient(top, #eee, #aaa); 
+background: -webkit-linear-gradient(#eee,#aaa);
+background: -ms-linear-gradient(top, #eee, #aaa);
+background: linear-gradient(top, #eee, #aaa);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#aaaaaa', GradientType=0);/* IE*/
+width: 90%;padding:50px 5% 0 5%;}
+.usp{background: url(../img/joinus_pic.png);height: 208px;width: 720px;background-size: 100% 100%;margin: 0 auto;padding:130px 0 0 240px;}
+h2{font-size: 32px;}
+.usp p{font-size: 22px;color: #555;}
+/*导航栏*/
+.guide{width: 960px;margin: 15px auto;}
+.item{float:left;width: 188px;display: inline-block;perspective: 500;-webkit-perspective: 500;}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5{background-color: #eee;border-bottom: 10px solid #4095d6;padding:20px 33px 0 33px;text-align: center;line-height: 50px;}
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover{cursor: pointer;}
+h3{font-weight: bold;margin-top: 10px;}
+/*文字部分*/
+.mid .left{display:inline-block;float:left;width:186px;height:300px;background: #eee;text-align: center;padding:180px 0 0 0;color: #666;margin-top:40px;line-height: 40px;}
+.mid .right{display:inline-block;float:left;width:684px;height:394px;padding:80px 30px 0 50px;border: 3px dashed #4095d6;margin-top:40px;}
+/*各种链接*/
+.link{width: 100%;height: 100px;background-color: #ccc;margin-top: 30px;padding-top: 80px;}
+.icon{position: absolute;top:-10px;left: 320px;letter-spacing: 20px;}
+.back{position:fixed;bottom:13%;right: 7%;opacity: 0.1;color: #666;line-height: 16px;}
+.back:hover{opacity: 0.7;}
+.bac{position: absolute;top:-10px;left: 80px;}
+.icon-nav,.icon-des{width:80px;height:80px;margin:0 auto;background:url(../img/join-icons.png) no-repeat;}
+.icon-ui{background-position:0 -652px}
+.icon-webfe{background-position:0 -912px}
+.icon-java{background-position:0 -392px}
+.icon-eval{background-position:0 -130px}
+.icon-writer{background-position:0 -1172px}
+.icon-des-ui{background-position:0 -522px}
+.icon-des-webfe{background-position:0 -782px}
+.icon-des-java{background-position:0 -262px}
+.icon-des-eval{background-position:0 0}
+.icon-des-writer{background-position:0 -1042px}
